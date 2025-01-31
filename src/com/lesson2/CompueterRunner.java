@@ -9,6 +9,6 @@ public class CompueterRunner {
         computer2.printLoad();
 
         Computer computer3 = new Computer(1003, 12);
-        computer3.printLoad();
+        computer3.printLoad();//
     }
 }
