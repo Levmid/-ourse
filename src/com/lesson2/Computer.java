@@ -2,20 +2,22 @@ package com.lesson2;
 
 public class Computer {
     //Поля класса
+
+    //модификаторы доступа по убыванию жесткости
     private int ssd = 500;
     private int rem = 1024;
 
-    Computer(){
-        System.out.println("Я был создан");
+    protected Computer(int ssd, int rem){
+        this.ssd = ssd;
+        this.rem = rem;
     }
 
     Computer(int ssd){
         this.ssd = ssd;
     }
 
-    Computer(int ssd, int rem){
-        this.ssd = ssd;
-        this.rem = rem;
+    public Computer(){
+        System.out.println("Я был создан");
     }
 
     void load() {
