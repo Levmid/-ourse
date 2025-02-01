@@ -1,4 +1,4 @@
-package com.lesson2;
+package com.oop.lesson2;
 
 public class CompueterRunner {
     public static void main(String[] args) {
